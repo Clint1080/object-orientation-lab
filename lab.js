@@ -310,7 +310,9 @@ class Vehicle {
   }
   move(miles) {
     this.mileage += miles
-    console.log(`Your new mileage is ${this.mileage}`)
+    console.log(
+      `Your new mileage is ${Intl.NumberFormat().format(this.mileage)}`
+    );
   }
 }
 /*
@@ -318,7 +320,7 @@ class Vehicle {
 */
 
 //Code Here
-let myFirstVehicle = new Vehicle(4, `Metallic Silver`, 269000)
+let myFirstVehicle = new Vehicle(4, `Metallic Silver`, Intl.NumberFormat().format(269000))
 
 /* 
   Now we'll create a class that's based off of the vehicle class. 
