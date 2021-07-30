@@ -18,8 +18,8 @@ let me = {
 //and goodBoy (a boolean).
 
 //Code here
-const dog = `dogsObject`;
-const dogsObject = {
+
+const dog = {
   name: `Charles`,
   color: `black`,
   age: 5,
@@ -31,7 +31,8 @@ const dogsObject = {
 
 //Code here
 
-// console.log(dogsObject.name)
+console.log(dog.name)
+//console.log(Object.values(dog))
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
