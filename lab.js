@@ -32,12 +32,18 @@ const dog = {
 //Code here
 
 console.log(dog.name)
-//console.log(Object.values(dog))
+// console.log(Object.values(dog))
+
+// for (const prop in dog) {
+//    console.log(`${prop}; ${dog[prop]}`)
+// }
 
 //////////////////////////// PROBLEM 4 ////////////////////////////
 /* Print out the color of the dog you created in problem 2 using bracket-notation. */
 
 //Code here
+
+// console.log(dog)
 console.log(dog[`name`]);
 
 //////////////////////////// PROBLEM 5 ////////////////////////////
